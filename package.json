@@ -1,0 +1,22 @@
+{
+  "name": "cypress-typescript-automatedtest",
+  "version": "1.0.0",
+  "description": "Cypress Advanced tests",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npx standard",
+    "lint:fix": "npx standard --fix",
+    "test": "cypress run --reporter nyan",
+    "cy:open": "cypress open"
+  },
+  "author": "Eliane Netto",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "cypress": "^12.13.0",
+    "cypress-localstorage-commands": "^2.2.3",
+    "cypress-plugin-api": "^2.11.1",
+    "cypress-xpath": "^2.0.1",
+    "standardjs": "^1.0.0-alpha"
+  }
+}
